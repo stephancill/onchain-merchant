@@ -60,6 +60,8 @@ export async function POST(req: NextRequest) {
       throw new Error("Quote not found");
     }
 
+    console.log("Handling quote", quote);
+
     if (quote.status !== "PENDING") {
       // If fulfillment has failed, ask to contact support
       if (quote.status === "FULFILLMENT_ERROR") {
