@@ -19,10 +19,10 @@ export function withCache<T>(
   { ttl = 60 * 60 * 24 }: { ttl?: number } = {}
 ) {
   return async () => {
-    const cached = await redis.get(key);
-    if (cached) {
-      return JSON.parse(cached) as T;
-    }
+    // const cached = await redis.get(key);
+    // if (cached) {
+    //   return JSON.parse(cached) as T;
+    // }
 
     const result = await fetcher();
 

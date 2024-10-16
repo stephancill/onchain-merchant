@@ -56,8 +56,8 @@ export const getSayThanksAuthToken = withCache(
     const response = await fetch(`${BASE_URL}/api/v2/auth/login`, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
         Accept: "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         email: process.env.SAYTHANKS_EMAIL,
@@ -79,13 +79,8 @@ export const getProducts = withCache(
   async () => {
     const authToken = await getSayThanksAuthToken();
 
-    console.log(
-      "url",
-      `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products.partner`
-    );
-
     const response = await fetch(
-      `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products.partner`,
+      `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products`,
       {
         headers: {
           Authorization: `Bearer ${authToken}`,
@@ -95,6 +90,9 @@ export const getProducts = withCache(
     );
 
     if (!response.ok) {
+      try {
+        console.error(await response.json());
+      } catch (error) {}
       throw new Error("Failed to fetch products");
     }
 
