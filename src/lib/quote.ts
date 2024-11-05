@@ -1,5 +1,5 @@
-import { Hex } from "viem";
-import { PaymentProof, Quote } from "../types";
+import { Quote } from "../types";
+import { ZARP_TOKEN } from "./addresses";
 import { QUOTE_TTL_SECONDS } from "./constants";
 import { redis } from "./redis";
 import { Product } from "./saythanks";
@@ -26,11 +26,8 @@ export async function createQuote({
     quantity,
     status: "PENDING",
     tokenQuote: {
-      address: process.env.PAYMENT_TOKEN_ADDRESS,
+      ...ZARP_TOKEN,
       amount: paymentTokenAmount,
-      chainId: parseInt(process.env.PAYMENT_TOKEN_CHAIN_ID),
-      decimals: parseInt(process.env.PAYMENT_TOKEN_DECIMALS),
-      symbol: process.env.PAYMENT_TOKEN_SYMBOL,
     },
   };
 
