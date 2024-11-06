@@ -1,17 +1,18 @@
 import { Address, Hex } from "viem";
 
+export type Token = {
+  symbol: string;
+  address: `0x${string}`;
+  chainId: number;
+  decimals: number;
+};
+
 export type Quote = {
   id: string;
   /**
    * Token that the user must pay with to fulfill the quote
    */
-  tokenQuote: {
-    address: Address;
-    decimals: number;
-    chainId: number;
-    amount: string;
-    symbol: string;
-  };
+  tokenQuote: Token & { amount: string };
   /**
    * Address that payment must be sent to
    */

@@ -1,3 +1,4 @@
+import { ZARP_TOKEN } from "@/lib/addresses";
 import { paymentProofDomain, paymentProofTypes } from "@/lib/constants";
 import { createQuote, getQuote } from "@/lib/quote";
 import { getProducts, Product } from "@/lib/saythanks";
@@ -38,14 +39,11 @@ export async function POST(req: NextRequest) {
 }
 
 async function calculateTokenQuote(product: Product, quantity: number) {
-  // TODO: Dynamic USDC/ZARP exchange rate
-  const exchangeRateZarCents = 1750;
-
   const priceZarCents = product.price_min * quantity;
 
   const paymentTokenAmount = parseUnits(
-    (Math.ceil((priceZarCents / exchangeRateZarCents) * 100) / 100).toString(),
-    parseInt(process.env.PAYMENT_TOKEN_DECIMALS)
+    priceZarCents.toString(),
+    ZARP_TOKEN.decimals - 2 // Remove two decimals to account for the fact that the price is in cents
   ).toString();
 
   return paymentTokenAmount;
