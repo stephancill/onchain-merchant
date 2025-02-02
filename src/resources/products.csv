@@ -1,0 +1,280 @@
+AQ ID,Network,Category ,Validity (days),Validity Label,Product ,ST Product Name,ST Variant ID
+1,Vodacom,Airtime ,365,Annual ,R5 Airtime,Vodacom - R5.00 Airtime Top-up,405
+2,Vodacom,Airtime ,365,Annual ,R10 Airtime,Airtime Top-up,2524
+3,Vodacom,Airtime ,365,Annual ,R15 Airtime,Airtime Top-up,2637
+4,Vodacom,Data,7,Weekly,2.2 GB,Weekly Data,2331
+5,Vodacom,Data,30,Monthly,75 MB ,Monthly Data,2314
+6,Vodacom,Data,30,Monthly,240 MB,Monthly Data,2320
+7,Vodacom,Data,30,Monthly,400 MB ,Monthly Data,2325
+8,Vodacom,Data,30,Monthly,600 MB ,Monthly Data,2328
+9,Vodacom,Data,30,Monthly,1.2 GB ,Monthly Data,2329
+10,Vodacom,Data,30,Monthly,2.5 GB ,Monthly Data,2332
+11,Vodacom,Data,30,Monthly,4.5 GB ,Monthly Data,2334
+12,Vodacom,Data,30,Monthly,7 GB ,Monthly Data,2336
+13,Vodacom,Data,30,Monthly,12 GB ,Monthly Data,2338
+14,Vodacom,Data,30,Monthly,18 GB ,Monthly Data,2339
+15,Vodacom,Data,30,Monthly,40 GB ,Monthly Data,2340
+16,Vodacom,Data,30,Monthly,120 GB ,Monthly Data,2342
+17,Vodacom,Voice,3,Daily,100 Mins daily,DayByDay Three Day Voice 100min R29,2318
+18,Vodacom,Voice ,30,Monthly,100 Mins daily,DayByDay Thirty Day Voice 100min R299,2335
+19,Vodacom,Voice,7,Weekly,60 Mins daily,DayByDay Seven Day Voice,2323
+20,Vodacom,Voice,7,Weekly,100 Mins daily,DayByDay Seven Day Voice,2326
+21,Vodacom,Social ,30,Monthly,Tiktok 1 GB ,Monthly TikTok,2321
+22,Vodacom,Social ,30,Monthly,Whatsapp 1.2 GB ,Monthly WhatsApp 1.2GB R37,2322
+24,Vodacom,Social ,30,Monthly,Tiktok 5 GB ,Monthly TikTok,2330
+26,Vodacom,SMS ,30,Monthly,50 SMS ,Vodacom - SMS bundle,368
+27,Vodacom,SMS ,30,Monthly,100 SMS ,Vodacom - SMS bundle,369
+28,Vodacom,SMS ,30,Monthly,200 SMS ,Vodacom - SMS bundle,370
+29,Vodacom,SMS ,30,Monthly,300 SMS ,Vodacom - SMS bundle,371
+33,Vodacom,SMS ,30,Monthly,2000 SMS ,Vodacom - SMS bundle,372
+34,MTN,Airtime ,20,Monthly,R5 Airtime,Airtime Top-up,2514
+35,MTN,Airtime ,20,Monthly,R10 Airtime ,Airtime Top-up,2610
+36,MTN,Airtime ,20,Monthly,R15 Airtime ,Airtime Top-up,2645
+37,MTN,Airtime ,30,Monthly,R20 Airtime ,Airtime Top-up,160
+38,MTN,Airtime ,365,Annual ,R29 Airtime,Airtime Top-up,2646
+39,MTN,Airtime ,365,Annual ,R50 Airtime ,Airtime Top-up,2611
+40,MTN,Airtime ,365,Annual ,R70 Airtime ,Airtime Top-up,196
+41,MTN,Airtime ,365,Annual ,R100 Airtime ,Airtime Top-up,2612
+42,MTN,Data,1,Daily,35 MB,Daily Data,2392
+43,MTN,Data,1,Daily,100 MB,Daily Data,2398
+44,MTN,Data,1,Daily,250 MB,Daily Data,2402
+45,MTN,Data,1,Daily,1.5 GB ,Daily Data,2411
+46,MTN,Data,3,Daily,1.5 GB ,"Three Day Data 1.5GB R42,50",2414
+47,MTN,Data,1,Daily,EverydayGigs 1.5 GB ,Daily EveryDayGigs 1.5GB R32,2562
+48,MTN,Data,7,Weekly,EverydayGigs 3.5 GB 500 MB per day ,MTN - Seven Day EveryDayGigs,275
+49,MTN,Data,7,Weekly,EverydayGigs 7 GB 1 GB per day ,MTN - Seven Day EveryDayGigs,286
+50,MTN,Data,30,Monthly,EverydayGigs 15 GB 500 MB per day ,MTN - Thirty Day EveryDayGigs,2422
+51,MTN,Data,30,Monthly,EverydayGigs 30 GB 1 GB per day ,MTN - Thirty Day EveryDayGigs,308
+52,MTN,Data,30,Monthly,EverydayGigs 60 GB 2 GB per day ,MTN - Thirty Day EveryDayGigs,311
+53,MTN,Voice ,1,Daily,5 Min All Net ,MTN - Daily All-Net Voice,345
+54,MTN,Voice ,1,Daily,10 Min All Net ,MTN - Daily All-Net Voice,346
+55,MTN,Voice ,1,Daily,30 Min All Net ,MTN - Daily All-Net Voice,2397
+56,MTN,Voice ,1,Daily,60 Min All Net ,MTN - Daily All-Net Voice,2399
+57,MTN,Voice ,1,Daily,120 Min All Net ,MTN - Daily All-Net Voice,2404
+58,MTN,Voice ,7,Weekly,70 Min All Net ,MTN - Weekly All-Net Voice,354
+61,MTN,Voice,7,Weekly,280 Min On Net ,Weekly On-Net Voice,2409
+63,MTN,Voice,30,Monthly,900 Min On Net ,Monthly On-Net Voice,2419
+65,MTN,Social ,1,Daily,Whatsapp 50 MB,Daily Whatsapp,2509
+66,MTN,Social ,1,Daily,Facebook 200 MB,MTN - Daily Social 200MB,337
+67,MTN,Social ,1,Daily,Whatsapp 250 MB,Daily Whatsapp,2394
+68,MTN,Social ,3,Daily,Whatsapp 150 MB,Three Day Whatsapp,2395
+69,MTN,Social ,1,Daily,Whatsapp 1 GB ,Daily Whatsapp,2556
+70,MTN,Social ,3,Daily,Whatsapp 1 GB ,Three Day Whatsapp,237
+72,MTN,Social ,7,Weekly,Whatsapp 300 MB,MTN - Weekly Social 300MB,2400
+73,MTN,Social ,7,Weekly,Tiktok 1 GB ,Weekly Social 1GB R25,2559
+74,MTN,Social ,7,Weekly,Tiktok 2 GB ,Weekly Social 2GB R30,2561
+75,MTN,Social ,7,Weekly,Facebook 1 GB,Weekly Social 1GB R25,2407
+76,MTN,Social ,7,Weekly,Facebook 2 GB,Weekly Social 2GB R30,2560
+77,MTN,Social ,30,Monthly,Facebook 1 GB,Monthly Facebook 1GB R40,2563
+78,MTN,Social ,20,Monthly,Whatsapp 1 GB , 20 Day Whatsapp 1GB R33,2412
+79,MTN,Social ,30,Monthly,Whatsapp 1.2 GB , Monthly Whatsapp,2510
+80,MTN,Social ,30,Monthly,Whatsapp 2 GB , Monthly Whatsapp,2415
+81,MTN,SMS ,30,Monthly,30 SMS,Monthly SMS's,2555
+82,MTN,SMS ,30,Monthly,100 SMS ,Monthly SMS's,2558
+83,Telkom,Airtime ,365,Annual ,R10 Airtime ,Airtime Top-up,2306
+84,Telkom,Airtime ,365,Annual ,R20 Airtime ,Airtime Top-up,1481
+85,Telkom,Airtime ,365,Annual ,R50 Airtime,Airtime Top-up,2307
+86,Telkom,Voice ,7,Weekly,10 Min All Net ,All- Net Voice Minutes,2434
+87,Telkom,Voice ,7,Weekly,20 Min All Net ,All- Net Voice Minutes,2441
+88,Telkom,Voice ,30,Monthly,25 Min All Net ,All- Net Voice Minutes,2451
+89,Telkom,Voice ,30,Monthly,50 Min All Net ,All- Net Voice Minutes,2462
+90,Telkom,Voice ,30,Monthly,100 Min All Net ,All- Net Voice Minutes,2467
+91,Telkom,Voice ,30,Monthly,200 Min All Net ,All- Net Voice Minutes,2470
+92,Telkom,Voice ,30,Monthly,300 Min All Net ,All- Net Voice Minutes,2473
+93,Telkom,Voice ,30,Monthly,500 Min All Net ,All- Net Voice Minutes,2477
+94,Telkom,Voice ,30,Monthly,1000 Min All Net ,All-net Minutes 1000 Min R531,2484
+95,Telkom,Data,1,Daily,30 MB,Telkom - Daily Data Bundle,460
+96,Telkom,Data,1,Daily,100 MB Streaming,Daily Streaming Data 100MB R8,2577
+97,Telkom,Data,1,Daily,150 MB,Telkom - Daily Data Bundle,412
+98,Telkom,Data,1,Daily,300 MB,Telkom - Daily Data Bundle,464
+99,Telkom,Data,1,Daily,500 MB Streaming ,Daily Streaming Data 500MB R21,2578
+100,Telkom,Data,1,Daily,2 GB Streaming ,Daily Streaming Data 2GB R53,2581
+101,Telkom,Data,7,Weekly,50 MB,Telkom - Weekly Data Bundle,465
+102,Telkom,Data,7,Weekly,100 MB,Telkom - Weekly Data Bundle,466
+103,Telkom,Data,7,Weekly,250 MB ,Telkom - Weekly Data Bundle,467
+104,Telkom,Data,7,Weekly,1 GB Streaming ,Weekly Streaming Data 1GB R42,2580
+105,Telkom,Data,7,Weekly,500 MB  ,Telkom - Weekly Data Bundle,468
+106,Telkom,Data,7,Weekly,1 GB  ,Telkom - Weekly Data Bundle,469
+107,Telkom,Data,7,Weekly,2 GB  ,Telkom - Weekly Data Bundle,470
+110,Telkom ,Data,30,Monthly,100 GB Night Sufer ,Monthly Night Surfer 100GB R129,2471
+111,Telkom ,Data,Weekend,Daily,200 MB,Telkom - Weekend Data Bundle,455
+112,Telkom ,Data,Weekend,Daily,500 MB,Telkom - Weekend Data Bundle,456
+113,Telkom ,Data,Weekend,Daily,1 GB,Telkom - Weekend Data Bundle,457
+114,Telkom ,Data,Weekend,Daily,100 MB,Telkom - Weekend Data Bundle,454
+115,Telkom ,Data,14,Monthly,LTE 3 GB ,Telkom - Fourteen Day LTE On-net 3GB+3GB R49,422
+116,Telkom ,Data,61,Monthly,LTE 7.5 GB ,Telkom - Two Month LTE On-net,477
+117,Telkom ,Data,30,Monthly,LTE 10 GB ,Telkom - Monthly LTE On-net 10GB+10GB R149,478
+118,Telkom ,Data,61,Monthly,LTE 40 GB ,LTE On-net GB+GB,2480
+119,Telkom ,Data,61,Monthly,LTE 60 GB ,LTE On-net GB+GB,2481
+120,Telkom ,Data,61,Monthly,LTE 80 GB ,LTE On-net GB+GB,2483
+121,Telkom ,Data,61,Monthly,LTE 120 GB ,LTE On-net GB+GB,2485
+122,Telkom ,Data,31,Monthly,LTE Unlimited All hours 10 Mbps  ,Monthly LTE Unlimited All Hours,2486
+123,Telkom ,Data,3,Daily,DailyDoseGigs 1.5 GB 500 MB per day ,"Three Day Daily Dose Gigs 1,5GB R35",2579
+132,Telkom ,Social ,1,Daily,25 MB,Daily Social Bundle,2430
+133,Telkom ,Social ,1,Daily,50 MB,Daily Social Bundle,2432
+134,Telkom ,Social ,1,Daily,75 MB,Daily Social Bundle,2433
+135,Telkom ,Social ,1,Daily,Whatsapp 150 MB  ,Telkom - Daily WhatsApp,408
+136,Telkom ,Social ,1,Daily,100 MB ,Daily Social Bundle,2438
+137,Telkom ,Social ,1,Daily,Whatsapp 300 MB  ,Telkom - Daily WhatsApp,410
+138,Telkom ,Social ,1,Daily,250 MB ,Daily Social Bundle,462
+139,Telkom ,Social ,1,Daily,Whatsapp Unlimited  ,Telkom - Daily WhatsApp,416
+140,Telkom ,Social ,1,Daily,500 MB ,Daily Social Bundle,2455
+141,Telkom ,Social ,7,Weekly,75 MB,Telkom - Weekly Social Bundle,2439
+142,Telkom ,Social ,7,Weekly,Whatsapp 300 MB  ,Telkom - Weekly WhatsApp,411
+143,Telkom ,Social ,7,Weekly,100 MB ,Telkom - Weekly Social Bundle,2443
+144,Telkom ,Social ,7,Weekly,500 MB ,Telkom - Weekly Social Bundle,2458
+145,Telkom ,Social ,7,Weekly,Whatsapp 750 MB  ,Telkom - Weekly WhatsApp,417
+146,Telkom ,Social ,7,Weekly,Whatsapp Unlimited  ,Telkom - Weekly WhatsApp,420
+147,Telkom ,Social ,7,Weekly,1 GB ,Telkom - Weekly Social Bundle,2465
+148,Telkom ,Social ,7,Weekly,2 GB ,Telkom - Weekly Social Bundle,476
+149,Telkom ,Social ,30,Monthly,100 MB ,Telkom - Monthly Social Bundle,2448
+150,Telkom ,Social ,30,Monthly,250 MB ,Telkom - Monthly Social Bundle,2457
+151,Telkom ,Social ,30,Monthly,500 MB ,Telkom - Monthly Social Bundle,2461
+152,Telkom ,Social ,30,Monthly,Whatsapp 750 MB  ,Telkom - Monthly WhatsApp,419
+153,Telkom ,Social ,30,Monthly,1 GB ,Telkom - Monthly Social Bundle,488
+154,Telkom ,Social ,30,Monthly,Whatsapp 1.5 GB  ,Telkom - Monthly WhatsApp,421
+155,Telkom ,Social ,30,Monthly,2 GB,Telkom - Monthly Social Bundle,489
+156,Telkom ,Social ,30,Monthly,Whatsapp Unlimited  ,Telkom - Monthly WhatsApp,427
+157,Telkom ,Social ,30,Monthly,3 GB,Telkom - Monthly Social Bundle,490
+159,Telkom ,Combos,14,Monthly,FreeMe 300 MB  ,Telkom - FreeMe Boost,
+160,Telkom ,Combos,14,Monthly,FreeMe 600 MB ,Telkom - FreeMe Boost,
+161,Telkom ,Combos,61,Monthly,FreeMe 1.2 GB ,Telkom - FreeMe Boost,
+162,Telkom ,Combos,61,Monthly,FreeMe 1.8 GB ,Telkom - FreeMe Boost,
+163,Telkom ,Combos,61,Monthly,FreeMe 3.5 GB,Telkom - FreeMe Boost,
+164,Telkom ,Combos,61,Monthly,FreeMe 6.5 GB ,Telkom - FreeMe Boost,
+165,Telkom ,Combos,61,Monthly,FreeMe 11.5 GB ,Telkom - FreeMe Boost,
+166,Telkom ,Combos,61,Monthly,FreeMe 28 GB ,Telkom - FreeMe Boost,
+167,Telkom ,Social ,1,Daily,CHAT Bundle 50 MB,Daily Chat Bundle,2431
+168,Telkom ,Social ,1,Daily,CHAT Bundle 100 MB,Daily Chat Bundle,2437
+169,Telkom ,Social ,1,Daily,CHAT Bundle 250 MB ,Daily Chat Bundle,2447
+170,Telkom ,Social ,1,Daily,CHAT Bundle 500 MB ,Daily Chat Bundle,2454
+171,Telkom ,Social ,7,Weekly,CHAT Bundle 100 MB ,Weekly Chat Bundle,2442
+172,Telkom ,Social ,7,Weekly,CHAT Bundle 250 MB ,Weekly Chat Bundle,414
+173,Telkom ,Social ,7,Weekly,CHAT Bundle 1 GB,Weekly Chat Bundle,2464
+174,Telkom ,Social ,31,Monthly,CHAT Bundle 250 MB ,Monthly Chat Bundle,2456
+175,Telkom ,Social ,31,Monthly,CHAT Bundle 500 MB,Monthly Chat Bundle,2460
+176,Telkom ,Social ,31,Monthly,CHAT Bundle 1 GB,Monthly Chat Bundle,2466
+177,Telkom ,Social ,31,Monthly,CHAT Bundle 2 GB ,Monthly Chat Bundle,2468
+178,Cell C,Airtime ,365,Annual ,R10 Airtime ,Airtime Top-up,2294
+179,Cell C,Airtime ,365,Annual ,R20 Airtime,Airtime Top-up,187
+180,Cell C,Airtime ,365,Annual ,R50 Airtime ,Airtime Top-up,2295
+181,Cell C,Voice ,1,Daily,10 Min All Net ,CellC - Daily Call Minutes,495
+182,Cell C,Voice ,1,Daily,20 Min All Net ,CellC - Daily Call Minutes,497
+183,Cell C,Voice ,1,Daily,60 Min All Net ,CellC - Daily Call Minutes,505
+184,Cell C,Voice ,1,Daily,100 Min All Net ,CellC - Daily Call Minutes,512
+186,Cell C,Voice ,7,Weekly,15 Mins All Net ,CellC - Weekly Call Minutes,500
+187,Cell C,Voice ,7,Weekly,50 Mins All Net ,CellC - Weekly Call Minutes,511
+188,Cell C,Voice,7,Weekly,100 Mins On Net ,CellC - Weekly Call Minutes,516
+189,Cell C,Voice,7,Weekly,200 Mins On Net ,CellC - Weekly Call Minutes,525
+190,Cell C,Voice ,30,Monthly,30 Mins All Net ,CellC - Monthly Call Any-Net,510
+191,Cell C,Voice ,30,Monthly,90 Mins All Net ,CellC - Monthly Call Any-Net,521
+192,Cell C,Voice ,30,Monthly,240 Mins All Net ,CellC - Monthly Call Any-Net,532
+193,Cell C,Voice ,30,Monthly,1000 Mins All Net ,CellC - Monthly Call Any-Net,541
+194,Cell C,Data,1,Daily,30 MB,CellC - Daily Data,494
+195,Cell C,Data,7,Weekly,1 GB,CellC - Weekly Data,524
+196,Cell C,Data,30,Monthly,100 MB,CellC - Monthly Data,506
+197,Cell C,Data,30,Monthly,150 MB  ,CellC - Monthly Data,513
+199,Cell C,Data,30,Monthly,350 MB ,CellC - Monthly Data,518
+200,Cell C,Data,30,Monthly,600 MB ,CellC - Monthly Data,523
+201,Cell C,Data,30,Monthly,1 GB ,CellC - Monthly Double Data,526
+202,Cell C,Data,30,Monthly,7.5 GB 250 MB per day ,CellC - Thirty Day DayByDay,531
+203,Cell C,Data,30,Monthly,1.5 GB,CellC - Monthly Double Data,529
+204,Cell C,Data,30,Monthly,2 GB + 2 GB,CellC - Monthly Double Data,534
+205,Cell C,Data,30,Monthly,15 GB 500 MB per day ,CellC - Thirty Day DayByDay,537
+206,Cell C,Data,30,Monthly,3 GB,CellC - Monthly Double Data,539
+207,Cell C,Data,30,Monthly,4 GB,CellC - Monthly Double Data,542
+208,Cell C,Data,30,Monthly,30 GB 1 GB per day ,CellC - Thirty Day DayByDay,543
+210,Cell C,Data,30,Monthly,10 GB,CellC - Monthly Double Data,544
+211,Cell C,Data,30,Monthly,40 GB ,CellC - Monthly Data,545
+212,Cell C,Data,180,Monthly,100 GB,CellC - Six Month Double Data,557
+213,Cell C,Data,180,Monthly,200 GB,CellC - Six Month Double Data,558
+214,Cell C,Data,365,Annual ,10 GB,CellC - Cell C Giga,561
+215,Cell C,Data,365,Annual ,20 GB,CellC - Cell C Giga,562
+216,Cell C,Data,365,Annual ,30 GB ,CellC - Cell C Giga,563
+217,Cell C,Data,365,Annual ,50 GB ,CellC - Cell C Giga,151
+218,Cell C,Data,365,Annual ,100 GB,CellC - Cell C Giga,152
+219,Cell C,Data,365,Annual ,200 GB,CellC - Cell C Giga,153
+229,Cell C,Social ,1,Daily,Whatsapp 250 MB,CellC - Daily Whatsapp 250MB R5,496
+230,Cell C,Social ,1,Daily,Facebook 250 MB,Daily Facebook 250MB R5,2345
+231,Cell C,Social ,1,Daily,Instagram 250 MB,Daily Instagram 250MB R5,2346
+232,Cell C,Social ,1,Daily,Tiktok 250 MB,Daily TikTok 250MB R5,2347
+233,Cell C,Social ,1,Daily,Youtube 250 MB,Daily YouTube 250MB R5,2348
+234,Cell C,Social ,7,Weekly,Facebook 100 MB,Weekly Facebook 100MB R5,2349
+235,Cell C,Social ,7,Weekly,Instagram 100 MB,Weekly Instagram 100MB R5,2350
+236,Cell C,Social ,7,Weekly,Tiktok 100 MB,Weekly TikTok 100MB R5,2351
+237,Cell C,Social ,7,Weekly,Youtube 100 MB,Weekly YouTube 100MB R5,2352
+238,Cell C,Social ,1,Daily,Facebook 500 MB,Daily Facebook 500MB R9,2353
+239,Cell C,Social ,1,Daily,Instagram 500 MB,Daily Instagram 500MB R9,2354
+240,Cell C,Social ,1,Daily,Tiktok 500 MB,Daily TikTok 500MB R9,2355
+241,Cell C,Social ,1,Daily,Youtube 500 MB,Daily YouTube 500MB R9,2356
+242,Cell C,Social ,3,Daily,Whatsapp 300 MB,CellC - Three Day Whatsapp 300MB R10,498
+243,Cell C,Social ,7,Weekly,Facebook 350 MB,Weekly Facebook 350MB R10,2358
+244,Cell C,Social ,7,Weekly,Instagram 350 MB,Weekly Instagram 350MB R10,2359
+245,Cell C,Social ,7,Weekly,Tiktok 350 MB,Weekly TikTok 350MB R10,2360
+246,Cell C,Social ,7,Weekly,Youtube 350 MB,Weekly YouTube 350MB R10,2361
+247,Cell C,Social ,7,Weekly,Whatsapp 500 MB,CellC - Seven Day Whatsapp 500MB R15,501
+248,Cell C,Social ,7,Weekly,Youtube 1 GB,Weekly YouTube 1GB R19,2362
+249,Cell C,Social ,7,Weekly,Instagram 1 GB,Weekly Instagram 1GB R19,2363
+250,Cell C,Social ,7,Weekly,Tiktok 1 GB,Weekly TikTok 1GB R19,2364
+265,Cell C,SMS,30,Monthly,100 SMS ,CellC - 100 SMS Bundle,493
+272,MTN,Data,30,Monthly,30 GB Super Data,Monthly Super Data,2425
+273,MTN,Data,30,Monthly,70 GB Super Data,Monthly Super Data,2427
+274,MTN,Data,30,Monthly,200 GB Super Data,Monthly Super Data,2428
+275,MTN,Data,30,Monthly,65 MB ,Monthly Data Bundle,2557
+276,MTN,Data,30,Monthly,120 MB  ,Monthly Data Bundle,2405
+277,MTN,Data,30,Monthly,220 MB,Monthly Data Bundle,2410
+278,MTN,Data,30,Monthly,420 MB ,Monthly Data Bundle,2564
+279,MTN,Data,30,Monthly,600 MB,Monthly Data Bundle,2565
+280,MTN,Data,30,Monthly,1 GB,Monthly Data Bundle,2417
+281,MTN,Data,30,Monthly,1.2 GB ,Monthly Data Bundle,2418
+282,MTN,Data,30,Monthly,1.5 GB,Monthly Data Bundle,287
+283,MTN,Data,7,Weekly,80 MB,Weekly Data Bundle,2401
+284,MTN,Data,7,Weekly,150 MB ,Weekly Data Bundle,2403
+285,MTN,Data,7,Weekly,250 MB,Weekly Data Bundle,2408
+286,MTN,Data,7,Weekly,500 MB,Weekly Data Bundle,329
+287,MTN,Data,7,Weekly,1.2 GB ,Weekly Data Bundle,2416
+288,MTN,Data,7,Weekly,2.5 GB,Weekly Data Bundle,2420
+289,MTN,Data,7,Weekly,6 GB,Weekly Data Bundle,2423
+290,MTN,Data,30,Monthly,2.5 GB + 2.5 GB,Monthly Double Data Bundle,2421
+291,MTN,Data,30,Monthly,3.5 GB + 3.5 GB,Monthly Double Data Bundle,2424
+292,MTN,Data,30,Monthly,5.5 GB + 5.5 GB,Monthly Double Data Bundle,2426
+293,MTN,Data,30,Monthly,7 GB + 7 GB,Monthly Double Data Bundle,2566
+294,MTN,Data,30,Monthly,12 GB + 12 GB,Monthly Double Data Bundle,2429
+295,MTN,Data,30,Monthly,20 GB + 20 GB,Monthly Double Data Bundle,313
+296,MTN,Social ,7,Weekly,Facebook 300 MB,MTN - Weekly Social 300MB,234
+297,MTN,Data,1,Hourly,35 MB,Hourly Data,2391
+298,MTN,Data,1,Hourly,150 MB,Hourly Data,2393
+299,MTN,Data,1,Hourly,500 MB,Hourly Data,2396
+300,MTN,Data,1,Hourly,Rush Hour 1 GB,MTN - Hourly Rush Hour,236
+307,Vodacom,Airtime ,365,Annual ,R100 Airtime,Airtime Top-up,2526
+311,Vodacom,Airtime ,365,Annual ,R200 Airtime,Airtime Top-up,2527
+312,Vodacom,Data,7,Weekly,150 MB,Weekly Data,2316
+313,Vodacom,Data,7,Weekly,300 MB,Weekly Data,2319
+314,Vodacom,Data,7,Weekly,600 MB,Weekly Data,2324
+315,Vodacom,Data,7,Weekly,1.2 GB,Weekly Data,2327
+316,Vodacom,Data,30,Monthly,60 GB ,Monthly Data,2341
+317,Vodacom,Data,30,Monthly,LTE 2GB Anytime + 2GB Night Owl,LTE Anytime + Night Owl,2551
+318,Vodacom,Data,30,Monthly,LTE 5GB Anytime + 5GB Night Owl,LTE Anytime + Night Owl,2552
+319,Vodacom,Data,30,Monthly,LTE 10GB Anytime + 10GB Night Owl,LTE Anytime + Night Owl,2553
+320,Vodacom,Data,30,Monthly,LTE 20GB Anytime + 20GB Night Owl,LTE Anytime + Night Owl,2638
+321,Vodacom,Data,30,Monthly,LTE 50GB Anytime + 50GB Night Owl,LTE Anytime + Night Owl,2639
+322,Vodacom,Data,30,Monthly,LTE 100GB Anytime + 100GB Night Owl,LTE Anytime + Night Owl,2640
+323,Vodacom,Social ,7,Weekly,Tiktok 1GB,Weekly TikTok 1GB R20,2317
+324,Vodacom,Social ,7,Weekly,Whatsapp 300 MB  ,Weekly WhatsApp,2315
+326,Vodacom,Social ,3,Daily,Tiktok 500 MB,Three Day TikTok 500MB R12,2313
+327,Vodacom,Social ,3,Daily,Whatsapp 150 MB  ,Three Day WhatsApp 150MB R7,2312
+328,Vodacom,Social ,1,Daily,Whatsapp 50 MB  ,Vodacom - Daily WhatsApp,373
+329,Vodacom,Social ,1,Daily,Whatsapp 250 MB  ,Vodacom - Daily WhatsApp,158
+330,Telkom,Airtime ,365,Annual ,R100 Airtime,Airtime Top-up,2308
+331,Telkom,Airtime ,365,Annual ,R200 Airtime,Airtime Top-up,2309
+333,Telkom ,Data,1,Hourly,500 MB for 12 hours,Data 500MB 12 Hours  R15.00,2452
+334,Telkom ,Data,1,Hourly,400 MB for 3 hours ,Data 400MB 3 Hours  R12.00,2449
+335,Telkom ,Data,1,Hourly,250 MB for 3 hours ,Data 250MB 3 Hours  R10.00,2444
+336,Telkom ,Data,1,Hourly,300 MB for 1 hour,Data 300MB 1 Hour  R8.00,2440
+337,Telkom ,Data,1,Hourly,150 MB for 1 hour,Data 150MB 1 Hour  R5.00,2435
+338,Cell C,Airtime ,365,Annual ,R100 Airtime,Airtime Top-up,2296
+339,Cell C,Airtime ,365,Annual ,R200 Airtime,Airtime Top-up,2297
+340,Cell C,Airtime ,365,Annual ,R30 Airtime,Airtime Top-up,189
+341,Cell C,Airtime ,365,Annual ,R35 Airtime,Airtime Top-up,190
+342,Cell C,Airtime ,365,Annual ,R40 Airtime,Airtime Top-up,191
+343,Cell C,Airtime ,365,Annual ,R60 Airtime,Airtime Top-up,207

@@ -1,10 +1,9 @@
 import { withCache } from "./redis";
 
-// const BASE_URL = "https://demo.saythanks.app";
 const BASE_URL = "https://app.saythanks.app";
 
 const SAYTHANKS_AUTH_TOKEN_CACHE_KEY = "saythanks:auth_token";
-const SAYTHANKS_PRODUCTS_CACHE_KEY = `saythanks:products:${process.env.SAYTHANKS_CAMPAIGN_ID}`;
+const SAYTHANKS_PRODUCTS_CACHE_KEY = `saythanks:variants:${process.env.SAYTHANKS_CAMPAIGN_ID}`;
 
 type TokenResponseType = {
   access_token: string;
@@ -13,7 +12,7 @@ type TokenResponseType = {
   user_id: number;
 };
 
-export type Product = {
+type STProduct = {
   id: string;
   model_name: string;
   partner_id: number;
@@ -48,6 +47,14 @@ export type Product = {
     name: string;
     image: string;
   };
+};
+
+export type STProductVariant = {
+  provider: string;
+  id: string;
+  variantId: number;
+  variantName: string | null;
+  price: number;
 };
 
 export const getSayThanksAuthToken = withCache(
@@ -97,16 +104,21 @@ export const getProducts = withCache(
     }
 
     const result = (await response.json()) as {
-      products: { data: Product[] };
+      products: { data: STProduct[] };
     };
 
-    const transformedProducts = result.products.data.map((product) => ({
-      ...product,
-      provider: "saythanks",
-      id: `saythanks:${product.id}`,
-    }));
+    const variants: STProductVariant[] = result.products.data.flatMap(
+      (product) =>
+        product.product_variants.data.map((variant) => ({
+          provider: "saythanks",
+          id: `saythanks:${product.id}:${variant.id}`,
+          variantId: variant.id,
+          variantName: variant.name,
+          price: variant.price,
+        }))
+    );
 
-    return transformedProducts;
+    return variants;
   },
   {
     ttl: 60 * 60 * 24,
@@ -115,10 +127,12 @@ export const getProducts = withCache(
 
 export async function handleFulfillment({
   metadata,
-  product,
+  variantId,
+  value,
 }: {
   metadata: Record<string, string>;
-  product: Product;
+  variantId: number;
+  value: number;
 }) {
   console.log(
     "handleFulfillment",
@@ -127,9 +141,9 @@ export async function handleFulfillment({
     // product,
     {
       customer_msisdn: metadata.phoneNumber,
-      product_variant_id: product.product_variants.data[0].id,
+      product_variant_id: variantId,
       send: true,
-      value: product.product_variants.data[0].price,
+      value,
     }
   );
 
@@ -146,9 +160,9 @@ export async function handleFulfillment({
       },
       body: JSON.stringify({
         customer_msisdn: metadata.phoneNumber,
-        product_variant_id: product.product_variants.data[0].id,
+        product_variant_id: variantId,
         send: true,
-        value: product.product_variants.data[0].price,
+        value,
       }),
     }
   );

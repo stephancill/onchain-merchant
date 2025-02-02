@@ -23,7 +23,8 @@ export async function fulfillOrder(quoteId: string) {
     if (quote.productId.startsWith("saythanks:")) {
       await handleSayThanksFulfillment({
         metadata: quote.metadata,
-        product,
+        variantId: product.variantId,
+        value: product.price * quote.quantity,
       });
 
       return;
