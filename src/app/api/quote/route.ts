@@ -1,7 +1,7 @@
 import { ZARP_TOKEN } from "@/lib/addresses";
 import { paymentProofDomain, paymentProofTypes } from "@/lib/constants";
 import { createQuote, getQuote } from "@/lib/quote";
-import { getProducts, Product } from "@/lib/saythanks";
+import { getProducts } from "@/lib/saythanks";
 import { NextRequest } from "next/server";
 import { parseUnits } from "viem";
 
@@ -10,19 +10,20 @@ export async function POST(req: NextRequest) {
 
   const products = await getProducts();
 
-  const product = products.find((p) => p.id == productId);
+  const product = products.find((p) => p.id === productId);
 
   if (!product) {
+    console.error(`Product not found: ${productId}`);
     return Response.json({ error: "Product not found" }, { status: 404 });
   }
 
-  const paymentTokenAmount = await calculateTokenQuote(product, quantity);
+  const paymentTokenAmount = await calculateTokenQuote(product.price, quantity);
 
   const quote = await createQuote({
     paymentTokenAmount,
-    product,
     metadata,
     quantity,
+    productId,
   });
 
   return Response.json({
@@ -34,16 +35,19 @@ export async function POST(req: NextRequest) {
       types: paymentProofTypes,
       domain: paymentProofDomain,
     },
-    product,
+    product: product,
   });
 }
 
-async function calculateTokenQuote(product: Product, quantity: number) {
-  const priceZarCents = product.price_min * quantity;
+async function calculateTokenQuote(
+  unitPriceZarCents: number,
+  quantity: number
+) {
+  const priceZarCents = unitPriceZarCents * quantity;
 
   const paymentTokenAmount = parseUnits(
     priceZarCents.toString(),
-    ZARP_TOKEN.decimals - 2 // Remove two decimals to account for the fact that the price is in cents
+    ZARP_TOKEN.decimals - 2
   ).toString();
 
   return paymentTokenAmount;

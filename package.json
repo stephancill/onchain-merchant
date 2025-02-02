@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "PORT=3001 next dev",
     "build": "next build --experimental-build-mode compile",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "csv-parse": "^5.6.0",
     "ioredis": "^5.4.1",
     "jsonwebtoken": "^9.0.2",
     "next": "14.2.15",
