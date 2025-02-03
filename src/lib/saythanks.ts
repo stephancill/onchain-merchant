@@ -65,6 +65,7 @@ export const getSayThanksAuthToken = withCache(
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
+        "X-CSRF-TOKEN": "",
       },
       body: JSON.stringify({
         email: process.env.SAYTHANKS_EMAIL,
@@ -90,8 +91,8 @@ export const getProducts = withCache(
       `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products`,
       {
         headers: {
-          Authorization: `Bearer ${authToken}`,
           Accept: "application/json",
+          Authorization: `Bearer ${authToken}`,
         },
       }
     );
