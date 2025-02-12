@@ -162,7 +162,7 @@ export async function handleFulfillment({
       },
       body: JSON.stringify({
         customer_msisdn: metadata.phoneNumber,
-        customer_name: "-",
+        customer_name: metadata.phoneNumber,
         product_variant_id: variantId,
         send: true,
         value,
