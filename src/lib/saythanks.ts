@@ -158,6 +158,7 @@ export async function handleFulfillment({
         Authorization: `Bearer ${authToken}`,
         "Content-Type": "application/json",
         Accept: "application/json",
+        "X-CSRF-TOKEN": "",
       },
       body: JSON.stringify({
         customer_msisdn: metadata.phoneNumber,
