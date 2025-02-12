@@ -57,74 +57,61 @@ export type STProductVariant = {
   price: number;
 };
 
-export const getSayThanksAuthToken = withCache(
-  SAYTHANKS_AUTH_TOKEN_CACHE_KEY,
-  async () => {
-    const response = await fetch(`${BASE_URL}/api/v2/auth/login`, {
-      method: "POST",
+export const getSayThanksAuthToken = async () => {
+  const response = await fetch(`${BASE_URL}/api/v2/auth/login`, {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "X-CSRF-TOKEN": " ",
+    },
+    body: JSON.stringify({
+      email: process.env.SAYTHANKS_EMAIL,
+      password: process.env.SAYTHANKS_PASSWORD,
+    }),
+  });
+
+  const data = (await response.json()) as TokenResponseType;
+
+  return data.access_token;
+};
+
+export const getProducts = async () => {
+  const authToken = await getSayThanksAuthToken();
+
+  const response = await fetch(
+    `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products`,
+    {
       headers: {
         Accept: "application/json",
-        "Content-Type": "application/json",
-        "X-CSRF-TOKEN": "",
+        Authorization: `Bearer ${authToken}`,
       },
-      body: JSON.stringify({
-        email: process.env.SAYTHANKS_EMAIL,
-        password: process.env.SAYTHANKS_PASSWORD,
-      }),
-    });
-
-    const data = (await response.json()) as TokenResponseType;
-
-    return data.access_token;
-  },
-  {
-    ttl: 3600,
-  }
-);
-
-export const getProducts = withCache(
-  SAYTHANKS_PRODUCTS_CACHE_KEY,
-  async () => {
-    const authToken = await getSayThanksAuthToken();
-
-    const response = await fetch(
-      `${BASE_URL}/api/v2/ongoing-campaign/${process.env.SAYTHANKS_CAMPAIGN_ID}?include=products`,
-      {
-        headers: {
-          Accept: "application/json",
-          Authorization: `Bearer ${authToken}`,
-        },
-      }
-    );
-
-    if (!response.ok) {
-      try {
-        console.error(await response.json());
-      } catch (error) {}
-      throw new Error("Failed to fetch products");
     }
+  );
 
-    const result = (await response.json()) as {
-      products: { data: STProduct[] };
-    };
-
-    const variants: STProductVariant[] = result.products.data.flatMap(
-      (product) =>
-        product.product_variants.data.map((variant) => ({
-          provider: "saythanks",
-          id: `saythanks:${product.id}:${variant.id}`,
-          variantId: variant.id,
-          variantName: variant.name,
-          price: variant.price,
-        }))
-    );
-
-    return variants;
-  },
-  {
-    ttl: 60 * 60 * 24,
+  if (!response.ok) {
+    try {
+      console.error(await response.json());
+    } catch (error) {}
+    throw new Error("Failed to fetch products");
   }
-);
+
+  const result = (await response.json()) as {
+    products: { data: STProduct[] };
+  };
+
+  const variants: STProductVariant[] = result.products.data.flatMap((product) =>
+    product.product_variants.data.map((variant) => ({
+      provider: "saythanks",
+      id: `saythanks:${product.id}:${variant.id}`,
+      variantId: variant.id,
+      variantName: variant.name,
+      price: variant.price,
+    }))
+  );
+
+  return variants;
+};
 
 export async function handleFulfillment({
   metadata,
@@ -158,7 +145,7 @@ export async function handleFulfillment({
         Authorization: `Bearer ${authToken}`,
         "Content-Type": "application/json",
         Accept: "application/json",
-        "X-CSRF-TOKEN": "",
+        "X-CSRF-TOKEN": " ",
       },
       body: JSON.stringify({
         customer_msisdn: metadata.phoneNumber,
